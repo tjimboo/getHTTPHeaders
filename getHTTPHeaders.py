@@ -7,6 +7,11 @@ import requests
 
 # Get the response codes
 url  = input("What web site do you want check?: ")
+if url.startswith ('https://'):
+    print("")
+else:
+    url = "https://" + url
+
 r = requests.get(url, verify=True) 
 
 # Print the HTTP headers in instructions
