@@ -1,5 +1,5 @@
 """
-Print the HTTP headers for a web site
+Print the HTTP headers for the web site
 Requires Request Library
 """
 # First import the request library 
